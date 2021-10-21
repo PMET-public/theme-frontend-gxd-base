@@ -165,7 +165,7 @@ button.action.tocart.primary {
 @form-element-input-placeholder__color: @color-gray60;
 
 //  Header
-@header-panel__background-color: @color-darkgrey;
+@header-panel__background-color: @color-black;
 @header__background-color: @color-white;
 
 @minicart-icons-color: @color-white;
@@ -279,7 +279,7 @@ a#openReject {
 }
 
 // Footer
-@footer__background-color: @color-darkgrey;
+@footer__background-color: @color-black;
 @footer-links-color: @color-yellow;
 @footer-links-color-hover: darken(@color-yellow, 15%);
 @copyright__background-color: darken(@color-lightgrey, 5%);
@@ -567,7 +567,7 @@ fieldset[disabled] .block-promo .button.more {
     position: relative;
   }
   .header.content .block-search input#search {
-    background: @color-transparent;
+    background: @color-white;
     border-width: 0 0 1px 0;
     padding: 20px;
     font-style: italic;
@@ -642,14 +642,14 @@ a, div, button {
     }
 
     &.action.primary, &.pagebuilder-button-primary {
-        border-color: @button__color;
+        border-color: @color-transparent;
         color: @button__color;
-        background: @color-purple;
+        background: darken(@color-purple, 5%);
         
         &:hover, &:active, &:focus  {
-            border-color: @button__color;
+            border-color: @color-transparent;
             color: @button__color;
-            background: @color-transparent;
+            background: @color-purple;
         }
     }
 
