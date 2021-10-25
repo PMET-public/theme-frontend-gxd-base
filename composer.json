@@ -1,5 +1,5 @@
 {
-        "name": "magentoese/theme-frontend-gxd-base",
+        "name": "magentoese/theme-frontend-gxd-healthbeauty",
         "type": "magento2-theme",
         "require": {
                 "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0|~7.4.0",
